@@ -1,0 +1,9 @@
+<h1>Tracks</h1>
+{{#each tracks}}
+    <h4>{{this.name}}</h4>
+        <audio controls src="{{this.preview_url}}">
+        </audio>
+
+{{/each}}
+
+{{!-- <a href="/albums/{{this.id}}/tracks"</a> --}}
